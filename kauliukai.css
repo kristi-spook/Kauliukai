@@ -1,0 +1,113 @@
+body {
+  background-color: rgb(209, 209, 209);
+}
+header {
+  display: flex;
+  justify-content: space-around;
+}
+
+section {
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  border: 5px solid grey;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.dot {
+  width: 20px;
+  height: 20px;
+  background-color: black;
+  border-radius: 50%;
+}
+
+.vienas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.du {
+  display: flex;
+  justify-content: space-between;
+}
+
+.du div:last-child {
+  align-self: flex-end;
+}
+
+.trys {
+  display: flex;
+  justify-content: space-between;
+}
+.trys div:nth-child(2) {
+  align-self: center;
+  justify-self: center;
+}
+
+.trys div:last-child {
+  align-self: flex-end;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+main section {
+  width: 150px;
+  height: 150px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+}
+
+.keturi {
+  display: flex;
+  justify-content: space-between;
+}
+
+.keturi {
+  display: flex;
+  justify-content: space-between;
+}
+
+.keturi .eilute {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.eilute div:last-child {
+  background-color: red;
+}
+
+.penki {
+  display: flex;
+  justify-content: space-between;
+}
+
+.penki .eilute {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.penki .eilute:nth-child(2) {
+  justify-content: center;
+}
+
+.sesi {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sesi .eilute {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
